@@ -6,9 +6,16 @@ A Python script for downloading images and videos from X (formerly Twitter) prof
 
 - Downloads all available images from a user's media feed
 - Collects video links and downloads them using yt-dlp
-- Uses an existing Chrome session with your cookies (no login required)
+- Uses an existing Chrome session with your cookies (no login required if already logged in)
 - Handles pagination by scrolling to load more content
-- Saves images in high quality format
+- Saves images in high-quality format
+
+## Benefits of Using an Existing Session
+
+- No need to manually log in each time
+- Bypasses login restrictions or CAPTCHA challenges
+- Works seamlessly with your active account (Person 1)
+- Uses stored cookies to access media without authentication prompts
 
 ## Requirements
 
@@ -88,3 +95,4 @@ A Python script for downloading images and videos from X (formerly Twitter) prof
 ## License
 
 MIT
+
